@@ -8,6 +8,12 @@
 	"scripts": {
 		"start": "node server.js"
 	},
+	"builds": [
+		{
+		  "src": "package.json",
+		  "use": "vercel-sapper"
+		}
+	  ],
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
